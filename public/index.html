@@ -1,0 +1,46 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>CubeJS</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no" />
+
+    </head>
+
+    <body>
+        <script src="/socket.io/socket.io.js"></script>
+		<script src="js/three.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/KeyboardState.js"></script>
+		<script src="js/THREEx.WindowResize.js"></script>
+		
+
+        <div id="info">
+        WASD or Arrow keys to move<br>
+        SPACE to randomly change colour<br>
+        ENTER to input colour hex code<br>
+        R to reset to centre<br>
+        Rotate camera with left click<br>
+        Move camera with right click<br>
+        Zoom with scroll wheel<br>
+        </div>
+
+        <div id="buttons">
+            <button class="button" onclick="phoneUp()">up</button>
+            <button class="button" onclick="phoneDown()">down</button>
+            <button class="button" onclick="phoneLeft()">left</button>
+            <button class="button" onclick="phoneRight()">right</button>
+            <button class="button" onclick="phoneColour()">colour</button>
+        </div>
+
+        <div id="ThreeJS">
+
+        </div>
+
+        <script src="main.js">
+        </script>
+
+    </body>
+
+</html>

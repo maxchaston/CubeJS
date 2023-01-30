@@ -1,0 +1,12 @@
+{
+	"name": "cube",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "sudo node app.js |& tee logs.txt"
+	},
+	"dependencies": {
+		"express": "^4.17.2",
+		"socketio": "^1.0.0",
+		"three": "^0.149.0"
+	}
+}
